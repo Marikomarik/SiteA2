@@ -1,0 +1,168 @@
+
+header {
+  background-image: url('./him.jpg');
+  height: 900px;
+  background-position: 50% 0px;
+}
+
+.h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(15, 15, 15, .7);
+}
+
+.h1 .left {
+  display: flex;
+  color: #cfcdcd;
+  font-size: 12px;
+  font-family: Poppins, sans-serif;
+  padding: 10px 25px;
+}
+
+.h1 a{
+  transition: all .1s ease;
+}
+
+.h1 .left p {
+  color: white;
+  margin: 0;
+  margin-right: 30px;
+}
+
+.h1 .left a {
+  margin-right: 15px;
+}
+
+.h1 a:hover {
+  color: #00d9ff;
+}
+
+.right {
+  font-size: 12px;
+  padding: 10px 25px;
+}
+
+.right a {
+  margin-left: 25px;
+}
+
+.h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+}
+
+.h2 img{
+  height: 45px;
+}
+
+.h2 a{
+  transition: all .1s ease;
+  font-size: 18px;
+}
+
+.h2 a:hover {
+  color: #00d9ff;
+}
+
+.h2 button{
+  color: #fff !important;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 12px 42px;
+  margin-left: 25px;
+  transition: all .4s ease;
+}
+
+.h2 button:hover {
+  background-color: #00d9ff;
+}
+
+.h3 {
+  color: white;
+}
+
+.h3 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h3 h1 {
+  font-size: 70px;
+  text-align: center;
+  margin: 0;
+}
+
+.h3 h3 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.h3 .Search {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.h3 .Search input {
+  color: #646464;
+  padding: 12px 18px;
+  outline: 0;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 3px;
+  width: 29%;
+}
+
+.search-places {
+  color: #fff !important;
+  background-color: #00bfe0;
+  border: 1px solid #009bb6;
+  border-radius: 20px;
+  padding: 14px 42px;
+  transition: all .4s ease;
+  margin-bottom: 80px;
+  cursor: pointer;
+}
+
+.search-places:hover {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.h3 .but {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.h3 .but a{
+  background-color: rgba(255, 255, 255, .2);
+  width: 78px;
+  height: 78px;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,.2);
+  text-align: center;
+  transition: all .2s ease;
+  font-size: 12px;
+  position: relative;
+}
+
+.h3 .but a:hover{
+  background-color: #00bfe0;
+}
+
+.h3 .but a span{
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+}
