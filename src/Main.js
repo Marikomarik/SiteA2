@@ -8,6 +8,7 @@ import cub4 from './cub4.jpg'
 import cub5 from './cub5.jpg'
 import cub from './cub.jpg'
 import m3 from './m3.jpg'
+import Switch from './switch.jsx'
 import { useState } from 'react';
 
 export default function Main(){
@@ -120,6 +121,9 @@ export default function Main(){
                         <div className='otz'> B / 0 00000</div>
                     </li>
                 </ul>
+            </div>
+            <div className='container'>
+                <Switch></Switch>
             </div>
         </div>
     )
