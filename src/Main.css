@@ -3,6 +3,7 @@ h1 {
     line-height: 1.3em;
     font-weight: 500;
     margin: 0;
+    text-align: center;
 }
 
 p {
@@ -153,6 +154,8 @@ p {
 
 .banner1 {
     background-image: url("./baner1.jpg");
+    background-position: 50% -100px;
+    background-repeat: no-repeat;
 }
 
 .m2 {
@@ -279,6 +282,7 @@ p {
 }
 
 .switch {
+    margin: 60px 0;
     height: 260px;
     position: relative;
     display: flex;
@@ -346,4 +350,120 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+
+.banner2 {
+    background-image: url("./baner2.jpg");
+    background-position: 50% -100px;
+    background-repeat: no-repeat;
+}
+
+.m4 {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.m4 h1{
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    margin: 0;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.m4 h3 {
+    margin: 0;
+}
+
+.m4 p {
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+    color: white;
+    padding: 0 20%;
+    margin-bottom: 30px;
+}
+
+.m4 button {
+    color: #fff !important;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 12px 42px;
+    margin-left: 25px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.m4 button:hover {
+    background-color: #00d9ff;
+}
+
+.m5 {
+    padding: 60px 0;
+}
+
+.m5 span{
+    width: 85%;
+}
+
+.m5 ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.m5 li {
+    width: 48%;
+    display: flex;
+}
+
+.m5 i {
+    margin-top: 15px;
+    margin-right: 5%;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: #1ab5c1;
+    border-radius: 50%;
+}
+
+
+
+.m6 p {
+    text-align: center;
+    padding: 0 25%;
+}
+
+.m6 ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m6 li {
+    width: 30%;
+}
+
+.m6 img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.m6 a{
+    color: #949494;
+}
+
+.m6 h2 {
+    margin: 20px 0;
+}
+
+.m6 ul li p{
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 0;
+}
+
+.m6 span {
+    font-size: 13px;
 }

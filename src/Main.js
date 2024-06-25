@@ -8,6 +8,9 @@ import cub4 from './cub4.jpg'
 import cub5 from './cub5.jpg'
 import cub from './cub.jpg'
 import m3 from './m3.jpg'
+import m61 from './m61.jpg'
+import m62 from './m62.jpg'
+import m63 from './m63.jpg'
 import Switch from './switch.jsx'
 import { useState } from 'react';
 
@@ -123,7 +126,95 @@ export default function Main(){
                 </ul>
             </div>
             <div className='container'>
+                <h1>What Our Clients Say</h1>
                 <Switch></Switch>
+            </div>
+            <div className='banner2'>
+                <div className='container m4'>
+                    <h1>Most Popular Locations</h1>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                    </p>
+                    <div>
+                        <button>SEE MORE</button>
+                        <button>GO NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div className='container m5'>
+                <ul>
+                    <li>
+                        <i></i>
+                        <span>
+                            <h4>
+                                Available All the Time and Everywhere
+                            </h4>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            </p>
+                        </span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>
+                            <h4>
+                                Thousands of Places Around the World
+                            </h4>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            </p>
+                        </span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>
+                            <h4>
+                                Available All the Time and Everywhere
+                            </h4>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            </p>
+                        </span>
+                    </li>
+                    <li>
+                        <i></i>
+                        <span>
+                            <h4>
+                                Tons of Great Offers Every Day
+                            </h4>
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                            </p>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div className='container m6'>
+                <h1>Share Your Experience</h1>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                <ul>
+                    <li>
+                        <img src={m61}></img>
+                        <a>Traveling</a>
+                        <h2>Tips for Top Quality Pics</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem. Proin gravida...</p>
+                        <span>March 4, 2016 <a>by Jessica Moor</a></span>
+                    </li>
+                    <li>
+                        <img src={m62}></img>
+                        <a>Traveling</a>
+                        <h2>Tips for Top Quality Pics</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem. Proin gravida...</p>
+                        <span>March 4, 2016 <a>by Jessica Moor</a></span>
+                    </li>
+                    <li>
+                        <img src={m63}></img>
+                        <a>Traveling</a>
+                        <h2>Tips for Top Quality Pics</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem. Proin gravida...</p>
+                        <span>March 4, 2016 <a>by Jessica Moor</a></span>
+                    </li>
+                </ul>
             </div>
         </div>
     )
